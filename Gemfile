@@ -6,6 +6,9 @@ ruby '3.0.2'
 # Rubocop linter
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# ffi for spec tests
+gem 'ffi', github: 'ffi/ffi', submodules: true
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.2', '>= 7.0.2.3'
 
