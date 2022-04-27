@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  subject { User.new(name: 'Kevin Koome') }
+  subject { User.new(name: 'Kevin Koome', email: 'koomekevo@gmail.com', password: '1234321', confirmed_at: Time.now) }
   before { subject.save }
 
   it 'name should be present' do
