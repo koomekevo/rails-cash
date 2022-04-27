@@ -9,6 +9,9 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # devise gem
 gem 'devise'
 
+# add cancancan for authorization
+gem 'cancancan'
+
 # ffi for spec tests
 gem 'ffi', github: 'ffi/ffi', submodules: true
 
