@@ -6,6 +6,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-@koome = User.create!(name: 'koome', email: 'koome@gmail.com', password: '1234321', confirmed_at: Time.now)
-@group1 = Group.create!(user_id: @koome.id, name: 'Food', icon: 'food-icon')
-@group2 = Group.create!(user_id: @koome.id, name: 'Sports', icon: 'sport-icon') 
+@user1 = User.create!(name: 'user1', email: 'user1@mail.com', password: '1234321', confirmed_at: Time.now)
+@user2 = User.create!(name: 'user2', email: 'user2@mail.com', password: '1234321', confirmed_at: Time.now)
+
+@group1 = Group.create!(user: @user1, name: 'Food', icon: 'food-icon')
+@group2 = Group.create!(user: @user1, name: 'Sports', icon: 'sport-icon')
+
+@entity1 = @group1.entities.create!(user: @user1, name: 'entity1', amount: 5)
+@entity2 = @group1.entities.create!(user: @user1, name: 'entity2', amount: 10)
