@@ -89,3 +89,6 @@ end
 gem 'rails-controller-testing'
 
 gem 'rexml'
+
+# fix n+1 problems
+gem 'bullet', group: 'development'

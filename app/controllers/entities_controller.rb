@@ -1,6 +1,8 @@
 class EntitiesController < ApplicationController
+  load_and_authorize_resource
+
   def index
-    @group = Group.includes(:entities).find(params[:group_id])
+    @group = Group.find(params[:group_id])
     @entities = @group.entities.all.order(created_at: :desc)
   end
 
