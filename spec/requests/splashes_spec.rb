@@ -13,7 +13,7 @@ RSpec.describe 'Splashes', type: :request do
     end
 
     it 'should return the correct placeholder text' do
-      expect(response.body).to include('railscash')
+      expect(response.body).to include('RailsCash')
     end
   end
 end
