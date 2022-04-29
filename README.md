@@ -7,6 +7,14 @@ RailsCash is mobile web application where you can manage your budget. You have a
 - Rails
 - PostgreSQL
 
+## Live Demo
+
+https://railscash.herokuapp.com
+
+## Presentation
+
+https://www.loom.com/share/aa8afb2b90c842a1989148cc680f0c78
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
