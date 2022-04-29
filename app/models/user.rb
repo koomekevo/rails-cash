@@ -7,4 +7,10 @@ class User < ApplicationRecord
   has_many :entities
 
   validates :name, presence: true
+
+  protected
+
+  def confirmation_required?
+    false
+  end
 end
