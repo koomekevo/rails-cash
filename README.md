@@ -7,6 +7,14 @@ RailsCash is mobile web application where you can manage your budget. You have a
 - Rails
 - PostgreSQL
 
+## Live Demo
+
+https://railscash.herokuapp.com
+
+## Presentation
+
+https://www.loom.com/share/aa8afb2b90c842a1989148cc680f0c78
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -21,6 +29,8 @@ Run `rails s` to run the local version
 
 Check your browser at `http://localhost:3000/`
 
+Run `bundle exec rspec spec` for testing purposes.
+
 ## Authors
 
 👤 **Kevin Koome**
@@ -34,6 +44,10 @@ Check your browser at `http://localhost:3000/`
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgement
+
+- [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 ## Show your support
 
