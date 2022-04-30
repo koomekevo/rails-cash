@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+.logo-text {
+  color: #3778c2;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+}
+
+.logo-nav {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.back {
+  color: #fcfdfd;
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.brand-text {
+  font-size: 30px;
+}
+
+body {
+  font-family: 'proxima-nova', sans-serif;
+}
