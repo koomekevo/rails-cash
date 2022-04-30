@@ -25,12 +25,12 @@ RSpec.feature 'Entity index', type: :feature do
     expect(page).to have_content @entity.amount
   end
 
-  scenario 'display Add new transaction button on page' do
-    expect(page).to have_link 'Add transaction'
+  scenario 'display SCAN button on page' do
+    expect(page).to have_link 'SCAN'
   end
 
-  scenario 'When I click on Add transaction, I am redirected to that Entity\'s new page.' do
-    click_link('Add transaction')
+  scenario 'When I click on SCAN, I am redirected to that Entity\'s new page.' do
+    click_link('SCAN')
     expect(page).to have_current_path new_group_entity_path(@group.id)
   end
 end

@@ -15,13 +15,13 @@
  */
 
 .logo-text {
-  color: #0d6efd;
+  color: #3778c2;
   font-family: 'Amatic SC', cursive;
   font-size: 100px;
 }
 
 .logo-nav {
-  color: #0d6efd;
+  color: #fff;
   font-family: 'Amatic SC', cursive;
   font-size: 35px;
   font-weight: bolder;
@@ -30,7 +30,7 @@
 }
 
 .back {
-  color: #0d6efd;
+  color: #fcfdfd;
   font-size: 35px;
   font-weight: bolder;
   padding-left: 10px;
@@ -39,4 +39,8 @@
 
 .brand-text {
   font-size: 30px;
+}
+
+body {
+  font-family: 'proxima-nova', sans-serif;
 }
