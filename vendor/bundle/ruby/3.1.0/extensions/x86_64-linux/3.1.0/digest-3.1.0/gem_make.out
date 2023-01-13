@@ -1,0 +1,26 @@
+current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/digest-3.1.0/ext/digest/sha2
+/usr/bin/ruby -I /usr/share/rubygems extconf.rb
+Ignoring bootsnap-1.11.1 because its extensions are not built. Try: gem pristine bootsnap --version 1.11.1
+Ignoring pg-1.3.5 because its extensions are not built. Try: gem pristine pg --version 1.3.5
+Ignoring puma-5.6.4 because its extensions are not built. Try: gem pristine puma --version 5.6.4
+checking for u_int8_t... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-uv5xeg sitelibdir\=./.gem.20230113-14984-uv5xeg clean
+rm -f 
+rm -fr sha2.so false *.o  *.bak mkmf.log .*.time
+
+current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-uv5xeg sitelibdir\=./.gem.20230113-14984-uv5xeg
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_TYPE_U_INT8_T -DHAVE_SYS_CDEFS_H    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o sha2init.o -c sha2init.c
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_TYPE_U_INT8_T -DHAVE_SYS_CDEFS_H    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o sha2.o -c sha2.c
+rm -f sha2.so
+gcc -shared -o sha2.so sha2init.o sha2.o -L. -L/usr/lib64 -L. -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1   -m64  -lruby  -lm  -lc
+
+current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-uv5xeg sitelibdir\=./.gem.20230113-14984-uv5xeg install
+/usr/bin/mkdir -p . ./.gem.20230113-14984-uv5xeg/digest
+exit > .sitearchdir.-.digest.time
+/usr/bin/install -c -m 0755 sha2.so ./.gem.20230113-14984-uv5xeg/digest

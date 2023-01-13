@@ -1,5 +1,6 @@
 current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
 /usr/bin/ruby -I /usr/share/rubygems extconf.rb
+Ignoring nio4r-2.5.8 because its extensions are not built. Try: gem pristine nio4r --version 2.5.8
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -12,12 +13,12 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230113-8000-eyphh1 sitelibdir\=./.gem.20230113-8000-eyphh1 clean
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-ktxqm5 sitelibdir\=./.gem.20230113-14984-ktxqm5 clean
 rm -f 
 rm -fr nio4r_ext.so false *.o  *.bak mkmf.log .*.time
 
 current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230113-8000-eyphh1 sitelibdir\=./.gem.20230113-8000-eyphh1
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-ktxqm5 sitelibdir\=./.gem.20230113-14984-ktxqm5
 gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_UNISTD_H -DHAVE_LINUX_AIO_ABI_H -DEV_USE_LINUXAIO -DHAVE_LINUX_IO_URING_H -DEV_USE_IOURING -DHAVE_SYS_SELECT_H -DEV_USE_SELECT -DHAVE_SYS_EPOLL_H -DEV_USE_EPOLL -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_RESOURCE_H -DEV_STANDALONE    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o bytebuffer.o -c bytebuffer.c
 gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_UNISTD_H -DHAVE_LINUX_AIO_ABI_H -DEV_USE_LINUXAIO -DHAVE_LINUX_IO_URING_H -DEV_USE_IOURING -DHAVE_SYS_SELECT_H -DEV_USE_SELECT -DHAVE_SYS_EPOLL_H -DEV_USE_EPOLL -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_RESOURCE_H -DEV_STANDALONE    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o monitor.o -c monitor.c
 In file included from libev.h:7,
@@ -973,7 +974,7 @@ rm -f nio4r_ext.so
 gcc -shared -o nio4r_ext.so bytebuffer.o monitor.o nio4r_ext.o selector.o -L. -L/usr/lib64 -L. -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1   -m64  -lruby  -lm  -lc
 
 current directory: /home/kevinkoome/SoloProjects/rails-cash/vendor/bundle/ruby/3.1.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20230113-8000-eyphh1 sitelibdir\=./.gem.20230113-8000-eyphh1 install
-/usr/bin/mkdir -p . ./.gem.20230113-8000-eyphh1
+make DESTDIR\= sitearchdir\=./.gem.20230113-14984-ktxqm5 sitelibdir\=./.gem.20230113-14984-ktxqm5 install
+/usr/bin/mkdir -p . ./.gem.20230113-14984-ktxqm5
 exit > .sitearchdir.time
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20230113-8000-eyphh1
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20230113-14984-ktxqm5
