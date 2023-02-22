@@ -1,24 +1,58 @@
-# README
+# rails-cash
+RailsCash is mobile web application where you can manage your budget. You have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby
+- Rails
+- PostgreSQL
 
-* Ruby version
+## Live Demo
 
-* System dependencies
+https://railscash.herokuapp.com
 
-* Configuration
+## Presentation
 
-* Database creation
+https://www.loom.com/share/aa8afb2b90c842a1989148cc680f0c78
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy up and running follow these simple example steps.
 
-* Services (job queues, cache servers, search engines, etc.)
+Clone the repo with `git clone https://github.com/koomekevo/rails-cash.git`
 
-* Deployment instructions
+Run `bundle install` from the command line to install dependencies.
 
-* ...
+Run `rails db:setup` from the command line to set database and migrations.
+
+Run `rails s` to run the local version
+
+Check your browser at `http://localhost:3000/`
+
+Run `bundle exec rspec spec` for testing purposes.
+
+## Authors
+
+👤 **Kevin Koome**
+
+- GitHub: [@koomekevo](https://github.com/koomekevo)
+- Twitter: [@koomekevo](https://twitter.com/koomekevo)
+- LinkedIn: [LinkedIn](https://ke.linkedin.com/in/kevin-koome-aab84186)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Acknowledgement
+
+- [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance the author of the [original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
